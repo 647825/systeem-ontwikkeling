@@ -1,0 +1,45 @@
+.invoice {
+  border: 0.125em solid white;
+  border-radius: 0.625em;
+  padding: 0.625em;
+  min-width: 25em;
+  margin-top: 6em;
+}
+
+.cart-summary {
+  text-align: left;
+  margin-bottom: 1.25em;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  margin-left: 0.625em;
+}
+
+.ticket-list {
+  margin-top: 0.625em;
+}
+
+.ticket-item {
+  margin-bottom: 0.3125em;
+}
+
+.checkout-button {
+  background-color: #562799;
+  color: white;
+  border: none;
+  padding: 0.9375em 2.5em;
+  border-radius: 0.3125em;
+  cursor: pointer;
+  margin-top: 1.25em;
+  width: 100%;
+  font-size: 1em;
+}
+
+.separator {
+  border-top: 0.0625em solid #562799;
+  margin: 0.625em 0;
+}

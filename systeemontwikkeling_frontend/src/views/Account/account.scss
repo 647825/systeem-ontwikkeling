@@ -1,0 +1,50 @@
+.account-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.25em; 
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1); 
+    min-height: 80vh;
+}
+  
+.account-view ul {
+    list-style-type: none;
+    padding: 0;
+    width: fit-content;
+    margin: 0 auto;
+}
+  
+.account-view li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.625em; 
+    margin-bottom: 0.625em; 
+    font-size: 1.5em;
+}
+  
+.profile-picture {
+    width: 12.5em;
+    height: 12.5em;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1.25em;
+}
+
+button {
+    width: 10em;
+    height: 2em;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+.small-button {
+    width: 5em;
+    height: 1.5em; 
+    font-size: 1em; 
+}
+
+input {
+    font-size: 0.75em; 
+}

@@ -1,0 +1,144 @@
+.share {
+  background-color: #562799;
+  color: white;
+  border: none;
+  padding: 0.625em 1.25em;
+  border-radius: 0.3125em;
+  cursor: pointer;
+  margin-top: 1.25em;
+  font-size: 0.75em;
+}
+
+.shopping-cart {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.left-section {
+  flex: 2;
+  margin-left: 0.625em;
+}
+
+.right-section {
+  flex: 1;
+  margin-right: 0.625em;
+}
+
+.invoice-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.invoice {
+  border: 0.125em solid white;
+  border-radius: 0.625em;
+  padding: 0.625em;
+  min-width: 25em;
+}
+
+.cart-summary {
+  text-align: left;
+  margin-bottom: 1.25em;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  margin-left: 0.625em;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 1.25em;
+  width: 100%;
+}
+
+.cart-items.agenda-view {
+  flex-direction: column;
+}
+
+.cart-items .ticket-item {
+  width: calc(50% - 0.625em);
+  margin-right: 0.625em;
+  margin-bottom: 0.625em;
+}
+
+.program-info {
+  margin-bottom: 1.25em;
+}
+
+.personal-program {
+  font-size: 0.875em;
+}
+
+.invoice {
+  text-align: left;
+}
+
+.label {
+  text-align: left;
+}
+
+.value {
+  text-align: right;
+  margin-left: 0.625em;
+}
+
+.checkout-button {
+  background-color: #562799;
+  color: white;
+  border: none;
+  padding: 0.9375em 2.5em;
+  border-radius: 0.3125em;
+  cursor: pointer;
+  margin-top: 1.25em;
+  width: 100%;
+  font-size: 1em;
+}
+
+.separator {
+  border-top: 0.0625em solid #562799;
+  margin: 0.625em 0;
+}
+
+.success-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.success-box {
+  border: 0.125em solid white;
+  border-radius: 0.625em;
+  padding: 1.25em;
+  text-align: center;
+}
+
+.view-switch {
+  margin-top: 1em;
+
+  button {
+    background-color: #562799;
+    color: white;
+    border: none;
+    padding: 0.625em 1.25em;
+    border-radius: 0.3125em;
+    cursor: pointer;
+    font-size: 0.75em;
+    position: relative;
+    margin-right: 0.5em;
+  }
+}
+
+.agenda-items.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}

@@ -1,0 +1,38 @@
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 31.25em;
+  }
+  
+  .slide {
+    background-size: cover;
+    background-position: center;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    height: 70%;
+  }
+  
+  p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em; 
+    padding: 0 1.25em;
+  }
+  
+.active {
+    display: flex;
+  }
+  
+button {
+    width: 10%; 
+    height: 70%;
+    font-size: 3em;
+  }
+
+h2 {
+  padding-left: 1.25em;
+}

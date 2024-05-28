@@ -1,0 +1,26 @@
+.card {
+  button {
+    background-color: #edd83d;
+    border: none;
+    border-radius: 0.9375em;
+    padding: 0.625em 1.25em;
+    color: #000;
+    cursor: pointer;
+    align-self: center;
+  }
+
+  .star {
+    width: 1.875em;
+    height: 1.875em;
+    position: absolute;
+    right: 0.625em;
+    bottom: 0.625em;
+  }
+
+  span {
+    position: absolute;
+    bottom: 0.625em;
+    right: 2.5em;
+    color: #000;
+  }
+}

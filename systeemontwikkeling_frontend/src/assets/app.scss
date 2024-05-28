@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a{
+        margin: 0.5em;
+        padding: 0.5em;
+        text-decoration: none;
+        color: $secondary-color;
+        background-color: $primary-color;
+        border: 1px solid $secondary-color;
+        border-radius: 0.3em;
+    }
+}

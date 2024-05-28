@@ -1,0 +1,95 @@
+@import '../../assets/variables.scss';
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  background-color: $primary-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header-link {
+  flex: 1;
+  text-align: center;
+  height: 100%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &:hover {
+    text-decoration: underline double;
+  }
+}
+
+.header-image {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: $primary-color;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+}
+
+.header-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header-dropdown:hover .dropdown-content a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+.user,
+.language {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.shop {
+  background-image: url('../../assets/images/header/Shopheader.png');
+}
+.dance {
+  background-image: url('../../assets/images/header/Danceheader.png');
+}
+.jazz {
+  background-image: url('../../assets/images/header/Jazzheader.png');
+}
+.yummy {
+  background-image: url('../../assets/images/header/Yummyheader.png');
+}
+.home {
+  background-image: url('../../assets/images/header/Homeheader.png');
+}
+.history {
+  background-image: url('../../assets/images/header/Historyheader.png');
+}
+.user {
+  background-image: url('../../assets/images/header/Userheader.png');
+}
+.language {
+  background-image: url('../../assets/images/header/Languageheader.png');
+}

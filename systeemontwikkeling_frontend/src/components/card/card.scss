@@ -1,0 +1,93 @@
+@import '../../assets/variables.scss';
+
+.card {
+  width: 15em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  background-color: $primary-color;
+  padding: 1em;
+
+  img {
+    border-radius: 1em;
+    aspect-ratio: 1/1;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0 0 0;
+  }
+
+  .redirect {
+    background-color: $tertiary-color;
+  }
+}
+
+.history {
+  background-color: $histor-card;
+  color: black;
+
+  .redirect {
+    background-color: $histor-button;
+  }
+}
+
+.jazz {
+  background-color: $jazz-card;
+  .redirect {
+    background-color: $jazz-button;
+  }
+}
+
+.dance {
+  background-color: $dance-card;
+  .redirect {
+    background-color: $dance-button;
+  }
+}
+
+.restaurant {
+  background-color: #f3f9e3;
+  width: 30%;
+  margin: 1em;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 0.9375em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    color: #2c3e28;
+  }
+
+  p {
+    color: #2c3e28;
+  }
+}
+
+.redirect {
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    scale: 1.06;
+  }
+
+  &:active {
+    scale: 0.9;
+  }
+}

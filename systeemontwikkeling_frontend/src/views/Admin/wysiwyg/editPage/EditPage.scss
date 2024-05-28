@@ -1,0 +1,107 @@
+@import '../../../../assets/variables.scss';
+
+.banner,
+#infoTexts {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  flex-direction: row;
+  align-items: center;
+
+  .pageEditField {
+    color: white;
+  }
+
+  textarea {
+    height: 15em;
+  }
+}
+
+#infoTexts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 1em;
+}
+
+.image {
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.fileInput {
+  position: absolute;
+}
+
+.title {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.pageEditField {
+  background: none;
+  border: none;
+}
+
+textarea {
+  width: 100%;
+  min-height: 8em;
+  background: none;
+  border: none;
+  resize: none;
+}
+
+.card {
+  width: 15em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  background-color: $tertiary-color;
+  padding: 1em;
+
+  .image {
+    width: 14em;
+    height: 14em;
+  }
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  border-radius: 0.25em;
+  height: min-content;
+  text-align: center;
+}
+
+.savePage {
+  position: fixed;
+  left: 50%;
+  z-index: 1;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}

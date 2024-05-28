@@ -1,0 +1,72 @@
+@import '../../assets/variables.scss';
+
+.agenda-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3em;
+  width: 50%;
+  padding: 0.5em;
+  border-radius: 0.75em;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 9em;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  p {
+    margin: 0;
+  }
+}
+
+.info {
+  flex-grow: 1;
+  h3 {
+    margin: 0;
+  }
+}
+
+button {
+  border-radius: 100em;
+  background-color: transparent;
+  height: 3em;
+  width: 3em;
+  font-size: 1em;
+  border: white 2px solid;
+  cursor: pointer;
+}
+
+.subtrackt {
+  color: white;
+}
+
+.add {
+  border-color: black;
+  color: black;
+}
+
+.jazz {
+  background-color: $jazz-card;
+}
+
+.history {
+  background-color: $histor-card;
+  color: black;
+}
+
+.yummy {
+  background-color: $yummy-card;
+}
+.dance {
+  background-color: $dance-card;
+}

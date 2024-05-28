@@ -1,0 +1,70 @@
+@import '../../assets/variables.scss';
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+  .login-form {
+    width: 25rem;
+    padding: 1.25rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 1.25em;
+    gap: 0.9375rem;
+      label {
+        display: block;
+        margin-bottom: 0.3125rem;
+      }
+      input {
+        width: 95%;
+        padding: 0.625em;
+        border: 0.0625rem solid #ccc;
+        border-radius: 1.25em; 
+        background-color: transparent;
+        color: white; 
+
+        &:focus {
+          outline: none;
+          box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        }
+      }
+    }
+
+    .login-button {
+      width: 50%;
+      padding: 0.625em;
+      background-color: $primary-color-login;
+      color: white;
+      border: none;
+      border-radius: 1.25em;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+
+      &:hover {
+        background-color: $hover-color-login;
+      }
+    }
+
+    .forgot-password {
+      display: block;
+      margin-top: 0.3125rem;
+      color: $primary-color-login;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        color: $hover-color-login;
+      }
+    }
+    .signup-text {
+      margin-top: 1rem; 
+      text-align: center;
+    }
+    
+    .signup-link {
+      color: $primary-color-login;
+      text-decoration: none; 
+    }
+
+.header {
+  text-align: center;
+}

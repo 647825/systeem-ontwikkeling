@@ -1,0 +1,90 @@
+.checkout {
+  margin: 1em;
+  padding: 1.25em;
+  border: 0.125em solid white;
+  border-radius: 1.25em;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25em;
+}
+
+.input-group label {
+  flex: 1;
+  margin-right: 0.125em;
+  color: white;
+  font-weight: bold;
+}
+
+.input-group input,
+.card-element {
+  display: block; 
+  width: 50%; 
+  padding: 0.625em;
+  border: 0.125em solid white;
+  border-radius: 1.25em;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 1.25em;
+  margin-left: auto; 
+  margin-right: auto;
+}
+.payment-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25em;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  margin: 0 0.625em;
+}
+
+.payment-option input[type='radio'] {
+  margin-right: 0.3125em;
+}
+
+.payment-option img {
+  width: 6.25em;
+  height: auto;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-button,
+.cancel-button {
+  background-color: #562799;
+  color: white;
+  border: none;
+  padding: 0.625em 1.25em;
+  border-radius: 1.25em;
+  cursor: pointer;
+  margin: 0 0.625em;
+}
+
+.checkout-button:hover,
+.cancel-button:hover {
+  background-color: #450f73;
+}
+.loading-circle {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

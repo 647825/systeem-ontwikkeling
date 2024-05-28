@@ -1,0 +1,47 @@
+@import '../../../assets/variables.scss';
+
+.page {
+  background-color: $tertiary-color;
+  text-align: center;
+  padding: 0.5em;
+  flex-grow: 1;
+  border-radius: 0.5em;
+}
+
+.pageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.button {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 0.25em;
+  border: 1px solid $primary-color;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid $secondary-color;
+  }
+}
+
+.edit {
+  background-color: $secondary-color;
+  color: $primary-color;
+  &:hover {
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
+  margin-right: 0.5em;
+}
+
+.delete {
+  background-color: $danger-color;
+  color: $primary-color;
+  &:hover {
+    background-color: $primary-color;
+    color: $danger-color;
+  }
+}

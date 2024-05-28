@@ -1,0 +1,46 @@
+/* Top section css */
+.top-section {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 3%; 
+}
+.plate {
+  width: 50%;
+}
+.fork, .knife {
+  width: 8%; 
+}
+
+/* Icon sections css */
+.restaurant-icons-section, 
+.homerecipes-icons-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant-icon-left,
+.restaurant-icon-right, 
+.ingredients-icon, 
+.pan-icon {
+  width: 10%;
+  margin: 0 12.5em;
+}
+
+/* Restaurant cards section css */
+.restaurant-cards-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Slider section css */
+.homerecipes-slider-section {
+  width: 100%;
+  max-width: 100vw;
+  margin-bottom: 5%;
+}
+

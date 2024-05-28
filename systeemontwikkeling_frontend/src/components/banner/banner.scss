@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;    
+    
+    img {
+      width: 30%;
+      margin: 2em;
+      max-width: 40em;
+      flex-grow: 1;
+    }
+  }
+  
+  .text-content {
+    flex-grow: 1;
+    width: 45%;
+    text-align: left;
+    margin: auto;
+    padding: 3em;
+  }
+  

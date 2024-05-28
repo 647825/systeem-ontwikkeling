@@ -1,0 +1,98 @@
+.admin-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 12.5em;
+  background: #333;
+  color: #fff;
+  height: 100%;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      padding: 0.625em;
+      cursor: pointer;
+      &:hover {
+        background: #555;
+      }
+    }
+  }
+}
+
+.view {
+  position: relative;
+  padding: 1em;
+  overflow-y: auto;
+  overflow-x: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+.admin-page header {
+  display: none;
+}
+
+tbody {
+  tr {
+    td {
+      padding: 0.5em;
+      border: 1px solid #ccc;
+      text-align: center;
+      min-width: max-content;
+
+      input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: none;
+        color: white;
+      }
+
+      input[type='number'] {
+        text-align: center;
+      }
+
+      button {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    td:last-child {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: none;
+    }
+  }
+}
+
+thead {
+  tr {
+    th {
+      padding: 0.5em;
+      border: 1px solid #ccc;
+      min-width: max-content;
+    }
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: max-content;
+}
+
+option {
+  color: black;
+}
+
+select {
+  background: transparent;
+  color: white;
+  border: none;
+}
